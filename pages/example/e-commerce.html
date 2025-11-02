@@ -12,6 +12,93 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
 </head>
+<style>
+  /* 💙 Navbar soft blue gradient */
+  .main-header.navbar {
+    background: linear-gradient(90deg, #b3d4ff, #99c9ff);
+    color: #fff;
+  }
+
+  .main-header .nav-link, 
+  .navbar .nav-item a {
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+  }
+
+  .main-header .nav-link:hover {
+    color: #002b80 !important;
+  }
+
+  /* 💠 Sidebar soft pastel blue */
+  .main-sidebar {
+    background: linear-gradient(180deg, #d6e9ff, #b3d4ff);
+  }
+
+  .brand-link {
+    background: rgba(255, 255, 255, 0.2);
+    color: #003366 !important;
+    font-weight: bold;
+  }
+
+  .nav-sidebar .nav-link {
+    color: #003366 !important;
+    transition: all 0.3s ease;
+  }
+
+  .nav-sidebar .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #002b80 !important;
+    font-weight: 600;
+  }
+
+  .nav-sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.45);
+    color: #0047b3 !important;
+  }
+
+  /* 🌤️ Background dan konten */
+  body {
+    background: linear-gradient(to right, #f0f6ff, #e6f0ff);
+    font-family: "Poppins", sans-serif;
+    color: #00264d;
+  }
+
+  .content-wrapper {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    margin: 20px;
+    padding: 25px;
+    animation: fadeIn 0.7s ease-in-out;
+  }
+
+  /* 🩵 Heading */
+  h1, h2, h3, .brand-text {
+    color: #003366;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.05);
+  }
+
+  /* ✨ Tombol biru lembut */
+  .btn-primary {
+    background-color: #99c9ff;
+    border-color: #99c9ff;
+    color: #003366;
+    font-weight: 500;
+  }
+
+  .btn-primary:hover {
+    background-color: #80b8ff;
+    border-color: #80b8ff;
+    color: #001f4d;
+  }
+
+  /* Animasi halus */
+  @keyframes fadeIn {
+    from {opacity: 0; transform: translateY(10px);}
+    to {opacity: 1; transform: translateY(0);}
+  }
+</style>
+
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
@@ -869,7 +956,7 @@
             </div>
             <div class="col-12 col-sm-6">
               <h3 class="my-3">LOWA Men’s Renegade GTX Mid Hiking Boots Review</h3>
-              <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.</p>
+              <p>Sepatu ini punya desain tangguh, ringan, dan nyaman untuk dipakai seharian. Bahannya tahan air dan tetap breathable, jadi kaki nggak gampang lembap meski di jalur menanjak. Cocok banget buat kamu yang suka eksplor alam bebas.</p>
 
               <hr>
               <h4>Available Colors</h4>
@@ -981,9 +1068,9 @@
               </div>
             </nav>
             <div class="tab-content p-3" id="nav-tabContent">
-              <div class="tab-pane fade show active" id="product-desc" role="tabpanel" aria-labelledby="product-desc-tab"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae condimentum erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed posuere, purus at efficitur hendrerit, augue elit lacinia arcu, a eleifend sem elit et nunc. Sed rutrum vestibulum est, sit amet cursus dolor fermentum vel. Suspendisse mi nibh, congue et ante et, commodo mattis lacus. Duis varius finibus purus sed venenatis. Vivamus varius metus quam, id dapibus velit mattis eu. Praesent et semper risus. Vestibulum erat erat, condimentum at elit at, bibendum placerat orci. Nullam gravida velit mauris, in pellentesque urna pellentesque viverra. Nullam non pellentesque justo, et ultricies neque. Praesent vel metus rutrum, tempus erat a, rutrum ante. Quisque interdum efficitur nunc vitae consectetur. Suspendisse venenatis, tortor non convallis interdum, urna mi molestie eros, vel tempor justo lacus ac justo. Fusce id enim a erat fringilla sollicitudin ultrices vel metus. </div>
-              <div class="tab-pane fade" id="product-comments" role="tabpanel" aria-labelledby="product-comments-tab"> Vivamus rhoncus nisl sed venenatis luctus. Sed condimentum risus ut tortor feugiat laoreet. Suspendisse potenti. Donec et finibus sem, ut commodo lectus. Cras eget neque dignissim, placerat orci interdum, venenatis odio. Nulla turpis elit, consequat eu eros ac, consectetur fringilla urna. Duis gravida ex pulvinar mauris ornare, eget porttitor enim vulputate. Mauris hendrerit, massa nec aliquam cursus, ex elit euismod lorem, vehicula rhoncus nisl dui sit amet eros. Nulla turpis lorem, dignissim a sapien eget, ultrices venenatis dolor. Curabitur vel turpis at magna elementum hendrerit vel id dui. Curabitur a ex ullamcorper, ornare velit vel, tincidunt ipsum. </div>
-              <div class="tab-pane fade" id="product-rating" role="tabpanel" aria-labelledby="product-rating-tab"> Cras ut ipsum ornare, aliquam ipsum non, posuere elit. In hac habitasse platea dictumst. Aenean elementum leo augue, id fermentum risus efficitur vel. Nulla iaculis malesuada scelerisque. Praesent vel ipsum felis. Ut molestie, purus aliquam placerat sollicitudin, mi ligula euismod neque, non bibendum nibh neque et erat. Etiam dignissim aliquam ligula, aliquet feugiat nibh rhoncus ut. Aliquam efficitur lacinia lacinia. Morbi ac molestie lectus, vitae hendrerit nisl. Nullam metus odio, malesuada in vehicula at, consectetur nec justo. Quisque suscipit odio velit, at accumsan urna vestibulum a. Proin dictum, urna ut varius consectetur, sapien justo porta lectus, at mollis nisi orci et nulla. Donec pellentesque tortor vel nisl commodo ullamcorper. Donec varius massa at semper posuere. Integer finibus orci vitae vehicula placerat. </div>
+              <div class="tab-pane fade show active" id="product-desc" role="tabpanel" aria-labelledby="product-desc-tab"> Sepatu Low Premium ini dibuat dari bahan kanvas tebal berkualitas tinggi dengan sol karet anti-slip yang nyaman dipakai untuk berbagai aktivitas. Desainnya yang simpel namun elegan membuat sepatu ini cocok digunakan untuk acara santai, nongkrong, atau bahkan kegiatan sehari-hari di kampus maupun kantor. Bagian dalam sepatu dilapisi busa empuk sehingga tetap nyaman dipakai meskipun digunakan dalam waktu lama. Tersedia dalam beberapa pilihan warna seperti hitam, putih, dan abu-abu dengan ukuran 36 hingga 44. Sepatu ini juga mudah dipadukan dengan berbagai gaya pakaian, baik kasual maupun semi-formal. Dengan kualitas premium dan harga terjangkau, sepatu ini menjadi pilihan tepat untuk kamu yang ingin tampil keren dan tetap nyaman sepanjang hari. </div>
+              <div class="tab-pane fade" id="product-comments" role="tabpanel" aria-labelledby="product-comments-tab">Sepatunya keren banget! Desainnya persis seperti di foto dan bahan kanvasnya terasa kuat. Pengiriman juga cepat dan packaging rapi. Aku pakai seharian tetap nyaman, recommended banget! </div>
+              <div class="tab-pane fade" id="product-rating" role="tabpanel" aria-labelledby="product-rating-tab"> Rata-rata pelanggan memberikan penilaian 4.8 dari 5 bintang untuk sepatu ini. Sebagian besar pembeli merasa puas dengan kualitas bahan dan kenyamanannya yang tinggi. Produk dinilai sesuai dengan deskripsi, memiliki desain menarik, dan pengiriman yang tergolong cepat. Dari total 215 ulasan pelanggan, 90% memberikan rating bintang 5 dan menyatakan akan membeli kembali di toko ini karena pelayanan yang ramah dan produk yang sesuai ekspektasi. </div>
             </div>
           </div>
         </div>
